@@ -1,4 +1,4 @@
-###Persona
+### Persona
 A simple Myer Briggs personality Test app the gives the result of your personality type
 
 
