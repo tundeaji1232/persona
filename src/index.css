@@ -27,7 +27,7 @@ body {
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color:#4CAF50;
+  background-color:#2333be;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -72,8 +72,8 @@ margin: 1rem;
 
 }
 mark {
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+    background-color: #2333be;
+    border-color: #2333be;
     border-style: solid;
     padding:0.5rem;
     border-radius: 0.2rem;
@@ -87,7 +87,7 @@ mark {
 
 .waymaker{
   margin: 0.6rem 0.6rem 0.6rem 0.6rem;
-  border-color: #4CAF50;
+  border-color: #2333be;
   border-radius: 10px;
   border-style: solid;
   padding: 0.6rem 0.6rem 0.6rem 0.6rem;
@@ -106,8 +106,16 @@ mark {
   font-size: 5rem;
   flex-direction: column;
 }
+.result h1 {
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
 
+.cta {
+  font-size: 2rem;
+}
 
 .bottom-button{
   align-self: flex-end;
+
 }

@@ -14,12 +14,13 @@ render(){
 
       <h1>{this.props.match.params.tag}</h1>
 
-
+    <p className="cta">If this result best describes you</p>
+        <p className="cta"> Let your friends know more of who you are !  </p>
 <div >
+        
     <Link to ="/LandingPage">
-
       <button className="button">
-        <div className="bottom-button"> Who Else? </div>
+        <div className="bottom-button"> Share On Facebook? </div>
       </button>
     </Link>
   </div>
