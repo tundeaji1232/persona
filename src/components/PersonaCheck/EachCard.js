@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import array from "./PersonaDetails";
 import ImageRender from "../ImageRender"
-import { Link, Redirect } from "react-router-dom";
-import Result from "../Result";
+import {  Redirect } from "react-router-dom";
+
 
 export default class EachCard extends Component {
   render() {
     const{ id }= this.props;
     console.log("props id",id);
 
-    const { Id,image,description,uniqueChar } = id>7 ?{ Id,uniqueChar }:array[id];
+    const { Id,description,uniqueChar } = id>7 ?{ Id,uniqueChar }:array[id];
 
   console.log(this.props.tag);
 

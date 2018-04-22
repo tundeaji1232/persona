@@ -15,6 +15,7 @@ onChange = (uniqueN) => {
   this.setState({
     id1: this.state.id1 + 2,
     id2: this.state.id2 + 2,
+    
   })
 
   this.state.tag += uniqueN
