@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import  PersonaBoard from "./PersonaCheck/PersonaBoard"
+// import  PersonaBoard from "./PersonaCheck/PersonaBoard"
 import { Link } from "react-router-dom";
 
-export default class LandingPage extends React.Component {
+export default class LandingPage extends Component {
   render() {
     return (
       <div className="landingPage">

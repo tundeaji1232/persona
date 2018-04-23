@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import  LandingPage from "./LandingPage";
-import { Link,Redirect } from "react-router-dom";
+// import  LandingPage from "./LandingPage";
+// import { Link,Redirect } from "react-router-dom";
 import { FacebookShareButton } from 'react-share';
 // import Namer from "./Namer";
 
@@ -12,112 +12,112 @@ export default class Result extends Component {
     switch (tag) {
       case "INTJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE INTELLECTUAL :IMAGINATIVE STRATEGIC PLANNER </p>
          </div>
         );
       }
       case "ESTP": {
         return (
-            <div>
+            <div className="message">
           <p>THE SHOWMAN : SMART , ENERGETIC WITH PERSPECTIVE </p>
           </div>
         );
       }
       case "ESFP": {
         return (
-            <div>
+            <div className="message">
          <p>THE ENTERTAINER:SPONTANEOUS AND ENTHUSIASTIC </p>
          </div>
         );
       }
       case "ISFP": {
         return (
-            <div>
+            <div className="message">
          <p>THE CHAMELON:FLEXIBLE,CHARMING READY EXPLORER </p>
          </div>
         );
       }
       case "ISTP": {
         return (
-            <div>
+            <div className="message">
          <p>THE INNOVATOR:BOLD,PRACTICAL,HANDY </p>
          </div>
         );
       }
       case "ESFJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE CONTRIBUTOR: CARING,HELPFUL,SOCIABLE,POPULAR </p>
          </div>
         );
       }
       case "ENTJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE DIRECTOR: BOLD,IMAGINATIVE,LEADER </p>
          </div>
         );
       }
       case "INTP": {
         return (
-            <div>
+            <div className="message">
          <p> THE DEVISER: INNOVATIVE,CURIOUS</p>
          </div>
         );
       }
       case "ESTJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE MANAGER: MANAGERS, ORGANIZED,PARTTICULAR </p>
          </div>
         );
       }
       case "ISFJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE DEFENDER:DEDICATED, WARM </p>
          </div>
         );
       }
       case "ENTP": {
         return (
-            <div>
+            <div className="message">
          <p>THE DESIGNER:SMART,CURIOUS,INTELLECTUAL </p>
          </div>
         );
       }
       case "INFJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE CONFIDANT: QUIET, MYSTICAL,INSPIRING </p>
          </div>
         );
       }
       case "INFP": {
         return (
-            <div>
+            <div className="message">
          <p> THE HELPER: POETIC,KIND,ALTRUSTIC </p>
          </div>
         );
       }
       case "ENFJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE EDUCATOR: CHARISMATIC, INSPIRING </p>
          </div>
         );
       }
       case "ENFP": {
         return (
-            <div>
+            <div className="message">
          <p>THE ADVOCATE :CREATIVE AND ENTHUSIASTIC </p>
          </div>
         );
       }
       case "ISTJ": {
         return (
-            <div>
+            <div className="message">
          <p>THE AUDITOR : PRACTICAL,FACT-MINDED AND RELIABLE </p>
          </div>
         );
@@ -143,7 +143,7 @@ render(){
 
       <h1>{this.props.match.params.tag}</h1>
       
-      {this.nameDescribe(Tagged)}
+      <div > {this.nameDescribe(Tagged)} </div>
     
     
       {/* <div>{Namer(Tagged)}</div> */}

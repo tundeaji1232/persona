@@ -8,8 +8,11 @@ export default class EachCard extends Component {
   render() {
     const{ id }= this.props;
     console.log("props id",id);
+   
 
-    const { Id,description,uniqueChar } = id>7 ?{ Id,uniqueChar }:array[id];
+     const { Id,description,uniqueChar } = id>7 ? { Id,uniqueChar } : array[id];
+    // const { Id,description,uniqueChar }= this.props;
+    // (id>7)? { Id,uniqueChar } : array[id];
 
   console.log(this.props.tag);
 

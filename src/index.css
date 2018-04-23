@@ -83,6 +83,7 @@ mark {
 
 .eachCard{
   display: flex;
+  cursor: all-scroll;
 
 }
 
@@ -124,4 +125,8 @@ mark {
 .bottom-button{
   align-self: flex-end;
 
+}
+.message p {
+  font-size: 1.5rem;
+  color:  #2333be;
 }

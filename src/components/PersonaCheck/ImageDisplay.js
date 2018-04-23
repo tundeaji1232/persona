@@ -1,6 +1,6 @@
  import React, { Component } from "react";
  import EachCard from "./EachCard";
- import Result from "../Result";
+//  import Result from "../Result";
 
  export default class ImageDisplay extends Component {
 constructor (props) {
@@ -11,17 +11,32 @@ constructor (props) {
     tag:''
   }
 }
+// onChange = (uniqueN) => {
+//   this.setState({
+//     id1: this.state.id1 + 2,
+//     id2: this.state.id2 + 2,
+//     // tag:this.state.tag += uniqueN
+//   })
+
 onChange = (uniqueN) => {
+  const newResult = this.state.tag += uniqueN;
   this.setState({
     id1: this.state.id1 + 2,
     id2: this.state.id2 + 2,
-    
+    tag: newResult
+    // tag:this.state.tag += uniqueN
   })
 
-  this.state.tag += uniqueN
-console.log(this.state);
+//   this.state.tag += uniqueN
+// console.log(this.state);
 
 };
+// updateTag=(uniqueN)=> {
+//   var newResult = this.state.tag += uniqueN;
+//   this.setState({
+//     tag: newResult
+//   });
+// }
 
 
 render() {
