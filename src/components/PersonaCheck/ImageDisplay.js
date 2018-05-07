@@ -19,16 +19,13 @@ constructor (props) {
 //   })
 
 onChange = (uniqueN) => {
-  const newResult = this.state.tag += uniqueN;
   this.setState({
     id1: this.state.id1 + 2,
     id2: this.state.id2 + 2,
-    tag: newResult
+    tag: this.state.tag.concat(uniqueN)
     // tag:this.state.tag += uniqueN
   })
 
-//   this.state.tag += uniqueN
-// console.log(this.state);
 
 };
 // updateTag=(uniqueN)=> {

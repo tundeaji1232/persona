@@ -7,8 +7,7 @@ import thinking from "./PersonaCheck/personality/nature/thinking.png";
 import feeling from  "./PersonaCheck/personality/nature/feeling.png";
 import judging from "./PersonaCheck/personality/tactics/judging.png";
 import prospecting from "./PersonaCheck/personality/tactics/prospecting.png";
-// import { Link, Redirect } from "react-router-dom";
-// import Result from "./Result";
+
 
 
 
